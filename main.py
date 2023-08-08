@@ -102,7 +102,6 @@ def delete_taluk(taluk_id):
 @app.route('/delete_village/<int:village_id>', methods=['DELETE'])
 def delete_village(village_id):
     try:
-    # Use parameterized query to prevent SQL injection
         query = "DELETE FROM Village_one WHERE VillageId = ?"
         values = (village_id,)
         insert_query(query,values)

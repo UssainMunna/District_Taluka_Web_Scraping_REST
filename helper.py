@@ -4,7 +4,7 @@ server = "mssql.esmsys.in,14251"
 database = "interview"
 username = "interview"
 password = "Interview@123"
-conn = pyodbc.connect(f"DRIVER={{SQL Server}};SERVER={server};DATABASE={database};UID={username};PWD={password}")
+conn = pyodbc.connect(f"DRIVER={{ODBC Driver 17 for SQL Server}};SERVER={server};DATABASE={database};UID={username};PWD={password}")
 
 # Combine the data and append related IDs
 def organize_the_all_data(districts,taluks,villages):
