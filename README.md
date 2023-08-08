@@ -1,4 +1,10 @@
 # District_Taluka_Web_Scraping_REST
+
+**DOCKER COMMANDS
+docker build -t flask_app .     
+docker run -it -p 15400:15400 flask_app   **
+
+
 Web Scraping the District taluka details using Selenium and to Perform the REST API operations using the Data Gathered/Stored.
 
 Web Scraping with Selenium
