@@ -1,0 +1,7 @@
+Flask==2.0.2
+Flask-PyMongo==2.3.0
+Flask-JWT-Extended==4.4.3
+bson==0.5.10
+passlib
+pyodbc
+Flask-SQLAlchemy==2.5.1
