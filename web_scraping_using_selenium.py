@@ -5,10 +5,10 @@ from selenium.webdriver.common.by import By
 from selenium import webdriver
 from webdriver_manager.chrome import ChromeDriverManager
 
-server = "mssql.esmsys.in,14251"
-database = "interview"
-username = "interview"
-password = "Interview@123"
+server = ""
+database = ""
+username = ""
+password = ""
 
 # Create a connection to the database
 conn = pyodbc.connect(f"DRIVER={{SQL Server}};SERVER={server};DATABASE={database};UID={username};PWD={password}")
