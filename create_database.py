@@ -2,10 +2,10 @@ import pyodbc
 
 
 # Database connection details
-server = "mssql.esmsys.in,14251"
-database = "interview"
-username = "interview"
-password = "Interview@123"
+server = ""
+database = ""
+username = ""
+password = ""
 
 # Create a connection to the database
 
